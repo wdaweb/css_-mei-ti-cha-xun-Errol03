@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>媒體查詢</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: '微軟正黑體';
+            transform: 1s;
+            font-size: 30px;
+            align-items: center;
+            margin: auto;
+        }
+
+
+        img {
+            width: 50%;
+        }
+
+        .container {
+            width: 95%;
+            padding: 0 15px;
+            margin: auto;
+           text-align: center;
+
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+
+            align-items: center;
+            justify-content: center;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            width: 100%;
+            border: 0px;
+            padding: 15px;
+            margin: 1.5%;
+            /* border-bottom: 1px solid#000; */
+        }
+.border-bottom{
+    padding: 20px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid#000;
+}
+        .isShow {
+            display: inline;
+        }
+.p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.h1{
+    display: flex;
+ text-align: left;
+ align-self: flex-start;
+}
+
+
+
+
+        /* 至少992*/
+        @media (min-width:992px) {
+            .container {
+                width: 75%;
+            }
+
+            .logo {
+                width: 50%;
+                height: 50%;
+                position: relative;
+                text-align: center;
+                margin:300px auto ;
+
+            }
+
+            .Css {
+                width: 15%;
+                height: 15%;
+                position: absolute;
+                top: 0px;
+                left: 300px;
+            }
+
+            .html {
+                width: 20%;
+                height: 20%;
+                position: absolute;
+                bottom: 550px;
+                left: -40px;
+
+            }
+
+            .JQ {
+                width: 20%;
+                height: 20%;
+                position:absolute ;
+                bottom: -20px;
+                left: 120px;
+            }
+
+            .BT {
+                width: 23%;
+                height: 23%;
+                position: absolute;
+                right: 250px;
+                bottom: 600px;
+            }
+
+            .JS {
+                width: 15%;
+                height: 15%;
+                position: absolute;
+                bottom: 300px;
+                left: 100px;
+
+
+            }
+
+            .Sass {
+                width: 20%;
+                height: 20%;
+                position: absolute;
+                bottom: 350px;
+                right: 50px;
+            }
+
+            .Vue {
+                width: 18%;
+                height: 18%;
+                position: absolute;
+                bottom: 50px;
+                right: 150px;
+            }
+        
+
+      .isShow {
+          display: none;
+      }
+      .line-logo{
+          width: 200px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          bottom: 300px;
+          right: 470px;
+          transform:rotate(45deg);
+      }
+      .line-html{
+          width: 400px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          bottom: 280px;
+          right: 1000px;
+          transform:rotate(25deg);
+      }
+      .line-js{
+          width: 280px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          top: 120px;
+          left: 250px;
+          transform:rotate(-5deg);
+      }
+      .line-jq{
+          width: 300px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          top: -25px;
+          left: 300px;
+          transform:rotate(-30deg);
+      }
+      .line-bt{
+          width: 200px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          top:220px;
+          right: 180px;
+          transform:rotate(-40deg);
+      }
+      .line-sass{
+          width: 300px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          top: 150px;
+          right: 250px;
+          transform:rotate(-10deg);
+      }
+      .line-vue{
+          width: 280px;
+          height: 200px;
+          border-top: 3px dashed rgb(189, 189, 189) ;
+          position: absolute;
+          top: -10px;
+          right: 250px;
+          transform:rotate(25deg);
+      }
+     
+     
+     
+      }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+    
+        <div class="row">
+            <div class="col"> 
+            <div class="logo">
+                    <img src="./職訓.png">
+                    <h1>泰山職訓局</h1>
+                    <h3>從零開始的網頁設計課程</h3><p>
+                    <div class="p">轉職網頁開發人員&nbsp;掌握就業必備職能<br>由淺入深學習技術強化職場的競爭力
+                  <div class="isShow"><div class="border-bottom"></div></div> 
+                  <div class="line-logo"></div>
+                    </div> 
+            </div>
+     </div>
+        <div class="html">
+            <div class="col">
+                <img src="./HTML.png" alt="">
+                <h1>HTML</h1>
+                <div class="isShow"><div class="p">(英語:HyperText Markup Language，簡稱:HTML)是一種用於建立網頁的標準標記語言。 HTML 是一種基礎技術，常與 CSS、JavaScript
+                一起被眾多網站用於設計賞心悅目的網頁、網頁應用程式以及行 動應用程式的使用者介面。網頁瀏覽器可以讀取 HTML 檔案，並將其彩現成視覺化網頁。HTML 描述了一個網站
+                的結構語意隨著線索的呈現，使之成為一種標記語言而非程式語言。</div> </div>
+                <div class="isShow"><div class="border-bottom"></div></div> 
+                
+            </div>
+        </div>
+        <div class="line-html"></div>
+    </div>
+   
+    <div class="Css">
+        <div class="col">
+            <img src="./CSS.png" alt="">
+            <h1>CSS</h1>
+            <div class="isShow"><div class="p">
+            (英語:Cascading Style Sheets，簡寫CSS)，又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣 式表，一種用來為結構化文件(如 HTML 文件或 XML
+            應用)添加樣式(字型、間距和顏色等)的電腦語言，由 W3C 定義和維護。目前最新版本是 CSS2.1，為 W3C 的推薦標準。CSS3 現在已被大部分現代瀏覽器支援，而下 一版的 CSS4
+            仍在開發中。</div></div>
+            <div class="isShow"><div class="border-bottom"></div></div>
+        </div>
+        <div class="line-css"></div> 
+    </div>
+   
+    <div class="JQ">
+        <div class="col">
+            <img src="./JQ.png" alt="">
+            <h1>JQuery</h1>
+            <div class="isShow"><div class="border-bottom"></div></div> 
+        </div>
+        <div class="line-jq"></div>
+    </div>
+   
+    <div class="BT">
+        <div class="col">
+            <img src="./Bootstrap.png" alt="">
+            <h1>Bootstrap</h1>
+            <div class="isShow"><div class="border-bottom"></div></div> 
+        </div>
+        <div class="line-bt"></div>
+    </div>
+   
+    <div class="JS">
+        <div class="col">
+            <img src="./JS.png" alt="">
+            <h1>JavaScript</h1>
+            <div class="isShow"><div class="border-bottom"></div></div> 
+        </div>
+        <div class="line-js"></div>
+    </div>
+  
+    <div class="Sass">
+        <div class="col">
+            <img src="./sass.png" alt="">
+            <h1>Sass</h1>
+            <div class="isShow"><div class="border-bottom"></div></div> 
+        </div>
+        <div class="line-sass"></div>
+    </div>
+   
+    <div class="Vue">
+        <div class="col">
+            <img src="./Vue.png" alt="">
+<h1>Vue</h1>
+
+<div class="line-vue"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
